@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+<h1>Lapidot Drone Shooting and Video</h1>
+<div class="menu">
+<ul>
+	<li class="dropdown">
+		<a class="dropbtn" href='#videos'>Videos</a>
+		<div class="dropdown-content">
+	      <a href="#Mozambique">Mozambique Research Expedition</a>
+	      <a href="#">Link 2</a>
+	      <a href="#">Link 3</a>	
+		</div>
+	</li>
+	<li><a href='#Gallery'>Gallery</a></li>
+	<li><a href='#footer'>Contact</a></li>
+	<li><a href='#'>About</a></li>
+</ul>
+</div>
+</div>
+
+<div class="container">
+	<i class="fas fa-eye-slash" style="position: fixed;" onclick="invisible()"></i>
+	<p dir="rtl">
+אני מטיס רחפן מקצועי בעל ניסיון רב בצילום מהים ומהיבשה, בתנאים משתנים. בעל ניסיון של 28 שנים בתפקיד מקליט, תאורן ומפעיל LiveU לשידורים חיים ברשות השידור. באותו זמן ניהלתי עסק עצמאי לצילום ועריכה של סרטים קצרים. מאז 2016 מצלם ומטיס רחפן ברישיון רשות 
+</p>
+</div>
+<!-- PICTURES GALLERY CONTAINER. ID=#Gallery -->
+	<div id="Gallery">
+	
+	<div id="currentPic">
+	</div>
+	
+	<div>
+		<i class="fas fa-arrow-circle-left" onclick="backPic()"></i>
+		<i class="fas fa-arrow-circle-right" onclick="forPic()"></i>
+		<button >Next Picture</button>
+	</div>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in </p>
+	</div>
+<!-- VIDEOS GALLERY. ID=videos. EACH 'CARD' GETS CLASS VIDEOS -->
+<div id='videos'>
+	<div class="videos Mozambique">
+	<h2>Mozambique Expedition</h2>
+	<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbazaruto.encounters%2Fvideos%2F688874661853268%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+	<p>A three weeks research expedtion on behalf of Haifa University</p>
+	</div>
+
+	<div class="videos Mozambique">
+	<h2>Kan Co.</h2>
+	<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F111814723694892%2Fvideos%2F2660448274009384%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+	<p>A collaboration with Kan Co.</p>
+	</div>
+
+</div>
+
+<footer id="footer">
+	<h4>Follow me</h4>
+<div>
+<a href="https://www.facebook.com/Lapidot-111814723694892/"><i class="fab fa-facebook-square"></i></a>
+<a href="">
+<i class="fab fa-youtube"></i></a>
+</div>
+<p>oferlapidot@gmail.com</p>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html> 
