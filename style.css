@@ -3,7 +3,7 @@
 #7395AE
 557A95
 #B1A296*/
-
+/*/////////////GENERAL//////////*/
 body{
 	margin: 0;
 	background-color: #CCCCCC;
@@ -12,7 +12,12 @@ body{
 	box-sizing: border-box; 
 
 }
+a{
+	display: block;
+	text-decoration: none;
 
+}
+/*/////////////HEADER AND MENU////////////*/
 #header{
 	visibility: visible;
 	position: sticky;
@@ -21,6 +26,7 @@ body{
 }
 h1{
 	display: inline;
+	color: black;
 }
 
 .menu{
@@ -83,6 +89,7 @@ li:last-child{
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 }
+/*////////////////BODY OF PAGE////////////////////*/
 iframe{
 	width: 100%;
 	height: 90vh;
@@ -93,9 +100,9 @@ iframe{
 	width: 100vw;
 	background: url("1.JPG") no-repeat center center;
 	background-size: cover;
-
 }
-
+#EntryBack{
+	z-index: -1;
 }
 
 p{
@@ -137,6 +144,7 @@ img{
 	padding: 5px;
 }
 
+/*//////////////////FOOTER//////////////*/
 footer>p{
 	font-size: 1em;
 }
@@ -149,7 +157,5 @@ footer{
 h4{
 	margin: 0;
 }
-.header:hover{
-	visibility: collapse;
-}
+
 
