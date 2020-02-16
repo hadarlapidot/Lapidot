@@ -22,10 +22,7 @@ body{
 h1{
 	display: inline;
 }
-.nemu{
-		position: sticky;
 
-}
 .menu{
 	background-color: lightgreen;
 }
@@ -86,14 +83,21 @@ li:last-child{
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 }
-
+iframe{
+	width: 100%;
+	height: 90vh;
+}
 .container{
-	background: url("1.JPG") no-repeat center center;
-	background-size: cover;
 	margin: 0px;
 	height: 90vh;
+	width: 100vw;
+	background: url("1.JPG") no-repeat center center;
+	background-size: cover;
 
 }
+
+}
+
 p{
 	font-size: 2em;
 	margin: 0;
